@@ -31,5 +31,5 @@ class ModCommands(commands.Cog):
         await inter.send(embed=embed)
     
 
-def setup(bot: commands.Bot):
+def setup(bot: commands.Bot) -> None:
     bot.add_cog(ModCommands(bot))
