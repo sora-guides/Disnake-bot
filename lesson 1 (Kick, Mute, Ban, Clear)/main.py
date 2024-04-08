@@ -4,7 +4,7 @@ from disnake.ext import commands
 from decouple import config
 
 
-token = config("TOKEN")
+TOKEN = config("TOKEN")
 prefix = "?"
     
 bot = commands.Bot(command_prefix=prefix, intents=Intents.all())
@@ -20,4 +20,10 @@ for filename in os.listdir("./cogs"):
         bot.load_extension(f"cogs.{filename[:3]}")
         # expect: cogs.mod
 
-bot.run(token)
+bot.run(TOKEN)
+
+"""
+Для запуска бота необходим токен, экземпляр бота и интенты.
+Также немного раскидал по базовым командам и cogs -> аналог хэндлеров для этой библиотеки.
+Сама же библиотека написана асинхронно.
+"""

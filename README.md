@@ -1,8 +1,12 @@
 
-# 🐍 How to write discord bot using disnake
+# 🐍 Как написать дискорд бота
 
-[![Spelling](https://github.com/banesullivan/README/actions/workflows/spelling.yml/badge.svg)](https://github.com/banesullivan/README/actions/workflows/spelling.yml)
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Github' src='https://img.shields.io/badge/self_studying-100000?style=for-the-badge&logo=Github&logoColor=white&labelColor=black&color=black'/></a>
 
-> This documentation is direct reflection of my learning disnake module
+> В этом репозитории я собираю функции и фишки для написания дискорд бота. В будущем репа будет еще изменяться и дополняться.
 
-This personal guide for Discord bot creation using Python and the Disnake library will walk you through the process.
+**Гайд написан на языке `Python` с использованием `Disnake`**
+**Уроки пишутся с использованием cogs**
+
+Содержание:
+* Команды kick, mute, ban и clear

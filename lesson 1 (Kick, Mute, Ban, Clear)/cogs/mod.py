@@ -87,8 +87,7 @@ class ModCommands(commands.Cog):
             self,
             inter: disnake.ApplicationCommandInteraction
         ) -> None:
-        await inter.response.send_message()
-    
+        ...
     
 
 def setup(bot: commands.Bot) -> None:
